@@ -1,5 +1,26 @@
 # information_component_of_monetary_shocks
-This repository contains the follow-up code for the Capstone Project 2021 "Analysing Central Bank of Russia Communication Impact on Monetary Policy Effectiveness With NLP", written under supervisor Mariam Mamedli 
+This repository contains the follow-up code for the Capstone Project 2021 "Analysing Central Bank of Russia Communication Impact on Monetary Policy Effectiveness With NLP", written under supervisor Mariam Mamedli.
+
+## Data collection and processing for informational component
+Notebooks:
+* [getting_press_release_data.ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/getting_press_release_data.ipynb) collects press release data from Bank of Russia Web-Page;
+* [getting_news_data.ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/getting_news_data.ipynb) collects relevant news from rbc.ru and lents.ru sites. Also contains filter for the news;
+
+
+Collected data:
+* [cbr_previews.xlsx](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/cbr_previews.xlsx) dataset with CBR previews;
+* [only_rbc_news_upd16042022.xlsx](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/only_rbc_news_upd16042022.xlsx) dataset with all news from "rbc finance" and "rbc economics", 4 days before press release time, classified by respective dates of press releases (has the column with indices of corresponding press release from the file [cbr_previews.xlsx](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/cbr_previews.xlsx));
+
+### Stage 1: Text Embedding
+Notebooks:
+* [stage_1_text_embedding.ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/stage_1_text_embedding.ipynb) 
+
+Files:
+* [cb_1306022_sbert.pt](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/cb_1306022_sbert.pt) CBR press release embeddings (SBERT model);
+* [news_rbc_13062022_sbert.pt](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/news_rbc_13062022_sbert.pt) news embeddings, averaged over each press release date  (SBERT model);
+* [cb_1306022_deeppavlov.pt](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/cb_1306022_deeppavlov.pt) CBR press release embeddings (DeepPavlov ruberta model);
+* [news_rbc_13062022_deeppavlov.pt](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/news_rbc_13062022_deeppavlov.pt) news embeddings, averaged over each press release date (DeepPavlov ruberta model)
+
 
 ### SVAR model
 Folder [variables_svar_model](https://github.com/tssorokina/information_component_of_monetary_shocks/tree/main/variables_svar_model) contains variables for SVAR model. The model, constructed with the use of these variables, replicates the specifications of closed economy and small open economy from Bannikova, Pestova (2021).
