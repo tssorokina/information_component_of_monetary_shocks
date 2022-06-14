@@ -5,11 +5,15 @@ This repository contains the follow-up code for the Capstone Project 2021 "Analy
 Notebooks:
 * [getting_press_release_data.ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/getting_press_release_data.ipynb) collects press release data from Bank of Russia Web-Page;
 * [getting_news_data.ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/getting_news_data.ipynb) collects relevant news from rbc.ru and lents.ru sites. Also contains filter for the news;
+* [getting_data_from_finam.ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/getting_data_from_finam.ipynb) collects relevant prices and indices data from finam.export
 
 
 Collected data:
 * [cbr_previews.xlsx](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/cbr_previews.xlsx) dataset with CBR previews;
 * [only_rbc_news_upd16042022.xlsx](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/only_rbc_news_upd16042022.xlsx) dataset with all news from "rbc finance" and "rbc economics", 4 days before press release time, classified by respective dates of press releases (has the column with indices of corresponding press release from the file [cbr_previews.xlsx](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/cbr_previews.xlsx));
+* [deltas_for_usd_rub.csv](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/deltas_for_usd_rub.csv) exchange rate for USD/RUB pair;
+* [deltas_for_futures.csv](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/deltas_for_futures.csv) exchange rate for USD/RUB pair;
+* [deltas_for_futures.csv](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/deltas_for_futures.csv) already computed in [results.ipynb]() high frequency surprises for futures on government bonds baskets.
 
 ### Stage 1: Text Embedding
 Notebooks:
