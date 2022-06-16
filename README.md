@@ -32,8 +32,10 @@ Notebooks:
 
 ### SVAR model
 Folder [variables_svar_model](https://github.com/tssorokina/information_component_of_monetary_shocks/tree/main/variables_svar_model) contains variables for SVAR model. The model, constructed with the use of these variables, replicates the specifications of closed economy and small open economy from Bannikova, Pestova (2021).
+
 Notebook for data preprocessing: [Data_Preprocessing_for_SVAR_model (1).ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/Data_Preprocessing_for_SVAR_model%20(1).ipynb)
-While dataset for SVAR analysis: [svar_dataset.csv](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/svar_dataset.csv)
+
+Whole dataset for SVAR analysis: [svar_dataset.csv](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/svar_dataset.csv)
 Links to the data:
 
 Variable | Units of measurement | Notation | Link to the data source
