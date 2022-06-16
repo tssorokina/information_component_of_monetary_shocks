@@ -25,10 +25,16 @@ Files:
 * [cb_1306022_deeppavlov.pt](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/cb_1306022_deeppavlov.pt) CBR press release embeddings (DeepPavlov ruberta model);
 * [news_rbc_13062022_deeppavlov.pt](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/news_rbc_13062022_deeppavlov.pt) news embeddings, averaged over each press release date (DeepPavlov ruberta model)
 
+### Stages 2 and 3
+Notebooks:
+* [Results (1).ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/Results%20(1).ipynb)
+
 
 ### SVAR model
 Folder [variables_svar_model](https://github.com/tssorokina/information_component_of_monetary_shocks/tree/main/variables_svar_model) contains variables for SVAR model. The model, constructed with the use of these variables, replicates the specifications of closed economy and small open economy from Bannikova, Pestova (2021).
-The links to data:
+Notebook for data preprocessing: [Data_Preprocessing_for_SVAR_model (1).ipynb](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/Data_Preprocessing_for_SVAR_model%20(1).ipynb)
+While dataset for SVAR analysis: [svar_dataset.csv](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/svar_dataset.csv)
+Links to the data:
 
 Variable | Units of measurement | Notation | Link to the data source
 --- | --- | --- | --- 
