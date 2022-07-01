@@ -1,5 +1,6 @@
 # information_component_of_monetary_shocks
 This repository contains the follow-up code for the Capstone Project 2021 "Analysing Central Bank of Russia Communication Impact on Monetary Policy Effectiveness With NLP", written under supervisor Mariam Mamedli.
+Text: [Tatiana_Sorokina_Analysing_Russian_Central_Bank_Communication_Impact_on_Monetary_Policy_Effectiveness_With_Natural_Language_Processing.pdf](https://github.com/tssorokina/information_component_of_monetary_shocks/blob/main/Tatiana_Sorokina_Analysing_Russian_Central_Bank_Communication_Impact_on_Monetary_Policy_Effectiveness_With_Natural_Language_Processing.pdf)
 
 ## Data collection and processing for informational component
 Notebooks:
